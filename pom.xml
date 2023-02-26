@@ -11,6 +11,18 @@
       <version>4.13.1</version>
     </dependency>
   </dependencies>
-  <name>Archetype - LeetCode</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <name>Archetype - LeetCode</name>
   <url>http://maven.apache.org</url>
 </project>
