@@ -1,4 +1,4 @@
-package IsFlipedString;
+package PracticePackage.IsFlipedString;
 
 import org.junit.Test;
 
